@@ -1,0 +1,51 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+    
+}
+
+.bg {
+    background-image: url("hero section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.imagem {
+    padding: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
